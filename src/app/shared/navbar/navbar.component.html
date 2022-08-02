@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://github.com/Carint" target="_blank">
-      <h1 class="title is-5">Shopping center</h1>
+      <h1 class="title is-4">Shopping center</h1>
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -13,37 +13,22 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-end">
-      <a class="navbar-item is-size-6">
+      <a 
+        class="navbar-item is-size-6"
+        routerLink="/home">
         Inicio
       </a>
 
-      <a class="navbar-item is-size-6">
+      <a 
+        class="navbar-item is-size-6"
+        routerLink="/latest">
         Nuevos
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-size-6">
-          Hombre
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            Accesorios
-          </a>
-          <a class="navbar-item">
-            Bolsos
-          </a>
-          <a class="navbar-item">
-            Ropa
-          </a>
-          <a class="navbar-item">
-            Zapatos
-          </a>
-        </div>
-      </div>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-size-6">
+        <a 
+          class="navbar-link is-size-6"
+          routerLink="/women">
           Mujer
         </a>
 
@@ -69,26 +54,56 @@
         </div>
       </div>
 
-      <a class="navbar-item is-size-6">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a 
+          class="navbar-link is-size-6"
+          routerLink="/men">
+          Hombre
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Accesorios
+          </a>
+          <a class="navbar-item">
+            Bolsos
+          </a>
+          <a class="navbar-item">
+            Ropa
+          </a>
+          <a class="navbar-item">
+            Zapatos
+          </a>
+        </div>
+      </div>
+
+      <a 
+        class="navbar-item is-size-6"
+        routerLink="/best">
         Más vendidos
       </a>
 
-      <a class="navbar-item is-size-6">
+      <a 
+        class="navbar-item is-size-6"
+        routerLink="/preorder">
         Pre-orden
+      </a>
+
+      <a 
+        class="navbar-item is-size-6"
+        routerLink="/cart">
+        Carrito (2)
       </a>
     </div>
 
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <!-- <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a> -->
           <a class="button is-light is-small">
             Iniciar sesión
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </nav>
