@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #F8F8F8;
+
+    .control-input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .input {
+            width: 600px;
+        }
+
+        .control {
+            .button {
+                .icon {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    font-size: 20px;
+}

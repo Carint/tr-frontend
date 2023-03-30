@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://github.com/Carint" target="_blank">
-      <h1 class="title is-4"><span class="has-text-weight-light">shop</span>Center</h1>
+      <h1 class="title is-4"><span class="has-text-weight-light">Shop</span>Center</h1>
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -12,7 +12,7 @@
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
       <a 
         class="navbar-item is-size-6"
         routerLink="/home">
@@ -94,16 +94,38 @@
         routerLink="/cart">
         Carrito (2)
       </a>
-    </div>
+    </div> -->
 
-    <!-- <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-light is-small">
-            Iniciar sesión
+    <div class="control-input">
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input" type="text" placeholder="What are you looking for...">
+        </div>
+        <div class="control">
+          <a class="button">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
           </a>
         </div>
       </div>
-    </div> -->
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-light is-small">
+            <span class="icon">
+              <i class="fas fa-user-circle"></i>
+            </span>
+          </a>
+          <a class="button is-light is-small">
+            <span class="icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>

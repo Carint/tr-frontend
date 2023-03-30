@@ -1,0 +1,36 @@
+.content-home {
+    .principal-item {
+        display: flex;
+        align-items: center;
+        gap: 0 40px;
+        margin: 20px 0;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px 0;
+            margin: 60px 0;
+            width: 50%;
+            h1 {
+                font-weight: 600;
+                font-size: 45px;
+            }
+    
+            a {
+                width: 150px;
+            }
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+
+            img {
+                height: auto;
+                width: 450px;
+            }
+        }
+    }
+}
