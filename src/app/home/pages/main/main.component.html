@@ -1,5 +1,5 @@
 <div class="content-home">
-    <div class="principal-item">
+    <div class="container banner">
         <div class="info">
             <span>SPRING SALES</span>
             <h1>Get 30% off</h1>
@@ -10,6 +10,80 @@
         </div>
         <div class="image">
             <img class="" src="../../../../assets/img/banner.png" alt="Placeholder image">
+        </div>
+    </div>
+</div>
+
+<div class="categories">
+    <div class="items container">
+        <div class="item">
+            <img class="image" src="../../../../assets/img/category-fashions.jpg" alt="">
+            <div class="content-item">
+                <h2>Fashion</h2>
+                <a class="button is-info">
+                    <strong>Shop Now</strong>
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <img class="image" src="../../../../assets/img/category-gadget.jpg" alt="">
+            <div class="content-item">
+                <h2>Gadgets</h2>
+                <a class="button is-info">
+                    <strong>Shop Now</strong>
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <img class="image" src="../../../../assets/img/category-accessory.jpg" alt="">
+            <div class="content-item">
+                <h2>Accessories</h2>
+                <a class="button is-info">
+                    <strong>Shop Now</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="new-items">
+    <div class="section-title container">
+        <h2>New Arrivals</h2>
+    </div>
+    <div class="section-items container">
+        <div class="item" *ngFor="let item of products">
+            <img [src]="item.image" alt="">
+            <div class="details-item">
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.price }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="services">
+    <div class="items container">
+        <div class="item">
+            <img src="../../../../assets/img/fashion-clothes.jpg" alt="">
+            <div class="content-item">
+                <h2>Fashionable Clothes</h2>
+                <p>Facilisis at odio amet consequat. Enim orci risus, commodo in ut est neque.</p>
+                <h2>$300.00</h2>
+                <a class="button is-info">
+                    <strong>Shop Now</strong>
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../../../../assets/img/printed-tshirt.jpg" alt="">
+            <div class="content-item">
+                <h2>Printable T-shirt</h2>
+                <p>At odio amet consequat. Enim orcEnim orci risus, commodo in ut est neque.</p>
+                <h2>$40.00</h2>
+                <a class="button is-info">
+                    <strong>Shop Now</strong>
+                </a>
+            </div>
         </div>
     </div>
 </div>

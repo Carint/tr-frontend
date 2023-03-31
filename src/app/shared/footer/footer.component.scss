@@ -12,6 +12,13 @@
 
 .footer-dev {
     span {
-        padding: 40px 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-items {
+        grid-template-columns: auto;
+        gap: 40px 0;
     }
 }

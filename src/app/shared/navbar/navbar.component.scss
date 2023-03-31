@@ -21,6 +21,21 @@
     }
 }
 
-.icon {
-    font-size: 20px;
+.buttons {
+    .button {
+        background-color: #F8F8F8;
+        
+        .icon {
+            margin-top: 8px;
+            font-size: 20px;
+        }
+    }
+
+    .money {
+        span {
+            font-size: 18px;
+            color: #3e8ed0;
+            font-weight: 600;
+        }
+    }
 }
